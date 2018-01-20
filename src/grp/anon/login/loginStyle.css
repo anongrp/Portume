@@ -1,0 +1,131 @@
+/* Theme Color Variable */
+*{
+	primary : #2A2E37;
+    secondary : #FFFF8D;
+    secondary-hover : #ffe538;
+    text_color : white;
+    hover_text : #B2B2B2;
+}
+
+/* Styling For Main First Login Home Screen */
+.root{
+	-fx-background-color:primary;
+}
+#login_pane{
+	-fx-background-image:url("bg.jpg");
+	-fx-background-position: center;
+	-fx-background-size: 1000px 600px;
+	-fx-effect:dropshadow(gaussian,black,50,0.1,0,10);
+}
+
+/* Styling for Recruiter Login Buttons*/
+.recruiter_btn{
+	-fx-pref-width:100px;
+	-fx-pref-height:50px;
+	-fx-background-color:#00ff17;
+	-fx-text-fill:#fff;
+	-fx-font-size:17px;
+	-fx-background-radius:0 20 20 0;
+	/*-fx-effect:dropshadow(gaussian, black,10,0.1,0,5);*/
+}
+.recruiter_btn:hover{
+	-fx-scale-y:1.1;
+	-fx-scale-x:1.1;
+	-fx-translate-x:5px;
+}
+.recruiter_btn:pressed{
+	-fx-scale-y:1;
+	-fx-scale-x:1;
+	-fx-translate-x: 0;
+}
+
+/* Styling for Student Login Buttons*/
+.student_btn{
+	-fx-pref-width:100px;
+	-fx-pref-height:50px;
+	-fx-background-color:#00ff17;
+	-fx-text-fill:#fff;
+	-fx-font-size:17px;
+	-fx-background-radius:20 0 0 20;
+	/* -fx-effect:dropshadow(gaussian,black,10,0.1,0,5); */
+}
+.student_btn:hover{
+	-fx-scale-y:1.1;
+	-fx-scale-x:1.1;
+	-fx-translate-x:-5px;
+}
+.student_btn:pressed{
+	-fx-scale-y:1;
+	-fx-scale-x:1;
+	-fx-translate-x: 0;
+}
+.login_label{
+	-fx-font-size:2.5em;
+	-fx-text-fill:#fff;
+}
+
+/* Styling for Login Form Screen */
+.trans{
+	-fx-background-image:url("bg.jpg");
+	-fx-background-position: center;
+	-fx-background-size: 900px 500px;
+}
+#login_input_pane{
+	-fx-background-color: rgba(255,255,255,0.5);
+	-fx-background-radius:15px;
+}
+.login-btn{
+	-fx-pref-width:100px;
+	-fx-pref-height:50px;
+	-fx-background-color:#00ff17;
+	-fx-text-fill:#fff;
+	-fx-font-size:17px;
+	-fx-background-radius:10px;
+}
+.login-btn:hover{
+	-fx-scale-x:1.05;
+	-fx-scale-y:1.05;
+}
+.login-btn:pressed{
+	-fx-scale-x:1;
+	-fx-scale-y:1;
+}
+
+/* Styling for Signup Form Screen */
+#signup_input_pane{
+	-fx-background-color: rgba(255,255,255,0.5);
+	-fx-pref-width: 850px;
+	-fx-pref-height: 450px;
+	-fx-background-radius: 20;
+}
+#pro_img_pre{
+	-fx-background-radius: 10;
+}
+#test{
+	-fx-background-color: #fff;
+	-fx-background-radius: 100;
+}
+.signup-label{
+	-fx-text-fill: #000;
+	-fx-font-size: 20px;
+}
+
+.signup-btn{
+	-fx-background-color: primary;
+	-fx-pref-width: 100px;
+	-fx-pref-height: 40px;
+	-fx-text-fill: #fff;
+	-fx-font-size: 17px;
+	-fx-background-radius: 10px;
+	-fx-effect: dropshadow(gaussian, secondary,0,1.0,0,5);
+}
+/*.signup-btn:hover{
+	-fx-scale-y: 1.05;
+	-fx-scale-x: 1.05;
+}*/
+.signup-btn:pressed{
+	-fx-translate-y: 5px;
+	-fx-effect: dropshadow(gaussian,#00cd15,0,1.0,0,0);
+}
+
+
