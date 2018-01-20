@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/AN_Database_v2_2_JRE_9_.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/grp/anon/database/DatabaseHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/grp/anon/login/Login-Home.fxml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/grp/anon/login/Login.fxml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/grp/anon/login/SignUP.fxml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/grp/anon/login/bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/grp/anon/login/loginStyle.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Portume.iml" afterPath="$PROJECT_DIR$/Portume.iml" />
-      <change beforePath="$PROJECT_DIR$/src/grp/anon/login/LoginAndSignUp.java" afterPath="" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,11 +64,10 @@
       <file leaf-file-name="DatabaseHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/grp/anon/database/DatabaseHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="32" column="131" lean-forward="false" selection-start-line="32" selection-start-column="131" selection-end-line="32" selection-end-column="131" />
+            <state relative-caret-position="450">
+              <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
                 <element signature="e#1056#1057#0" expanded="true" />
               </folding>
             </state>
@@ -531,7 +520,7 @@
       <workItem from="1516334706048" duration="2872000" />
       <workItem from="1516352924732" duration="5506000" />
       <workItem from="1516418691241" duration="8276000" />
-      <workItem from="1516428551143" duration="3256000" />
+      <workItem from="1516428551143" duration="3324000" />
     </task>
     <task id="LOCAL-00001" summary="Init Some Packages">
       <created>1516334982771</created>
@@ -540,14 +529,22 @@
       <option name="project" value="LOCAL" />
       <updated>1516334982771</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Init Database">
+      <created>1516435093265</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516435093265</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21227000" />
+    <option name="totallyTimeSpent" value="21295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -562,7 +559,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15208334" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15208334" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -595,7 +592,8 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="Init Some Packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init Some Packages" />
+    <MESSAGE value="Init Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init Database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -865,11 +863,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/grp/anon/database/DatabaseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="131" lean-forward="false" selection-start-line="32" selection-start-column="131" selection-end-line="32" selection-end-column="131" />
+        <state relative-caret-position="450">
+          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
             <element signature="e#1056#1057#0" expanded="true" />
           </folding>
         </state>
