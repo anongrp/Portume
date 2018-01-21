@@ -1,0 +1,20 @@
+/* Theme Color Variable */
+*{
+    primary : #2A2E37;
+    secondary : #FFFF8D;
+    secondary-hover : #ffe538;
+    text_color : white;
+    hover_text : #B2B2B2;
+}
+.root{
+    -fx-background-color:primary;
+}
+.white{
+    -fx-background-color: #fff;
+    -fx-background-radius: 100;
+}
+#username_label{
+    -fx-font-size: 20px;
+    -fx-text-fill: #fff;
+
+}

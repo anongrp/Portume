@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:controller="grp.anon.login.LoginController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" styleClass="root" stylesheets="@loginStyle.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <StackPane fx:id="login_pane" prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+         </BorderPane.margin>
+         <children>
+            <AnchorPane fx:id="login_material_pane" prefHeight="514.0" prefWidth="931.0">
+               <children>
+                  <Button fx:id="recruiter_login_btn" layoutY="239.0" mnemonicParsing="false" onAction="#recruiterLogin" styleClass="recruiter_btn" text="Login" />
+                  <Button fx:id="recruiter_signup_btn" layoutY="300.0" mnemonicParsing="false" onAction="#recruiterSignup" styleClass="recruiter_btn" text="Sign Up" />
+                  <Button fx:id="student_login_btn" layoutX="800.0" layoutY="234.0" mnemonicParsing="false" onAction="#studentLogin" styleClass="student_btn" text="Login">
+                     <font>
+                        <Font name="DFPOP1-W9" size="12.0" />
+                     </font></Button>
+                  <Button fx:id="student_signup_btn" layoutX="800.0" layoutY="295.0" mnemonicParsing="false" onAction="#studentSignup" styleClass="student_btn" text="Sign Up" />
+                  <Separator layoutX="431.0" orientation="VERTICAL" prefHeight="501.0" prefWidth="22.0" />
+                  <Label layoutX="100.0" layoutY="24.0" styleClass="login_label" text="Login as Recruiter" />
+                  <Label layoutX="564.0" layoutY="24.0" styleClass="login_label" text="Login as Student">
+                     <font>
+                        <Font name="Ubuntu" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+   </center>
+</BorderPane>
