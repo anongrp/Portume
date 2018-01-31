@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" stylesheets="@recruiter_Style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox prefHeight="500.0" prefWidth="120.0" styleClass="jfxtab_pane" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="45.0" prefWidth="120.0" styleClass="menu_pane">
+               <children>
+                  <Label layoutY="-2.0" prefHeight="45.0" prefWidth="120.0" styleClass="menu_label" text="      My Profile" />
+               </children>
+            </Pane>
+            <Pane prefHeight="45.0" prefWidth="120.0" styleClass="menu_pane">
+               <children>
+                  <Label layoutY="-2.0" prefHeight="45.0" prefWidth="120.0" styleClass="menu_label" text="      View " />
+               </children>
+            </Pane>
+            <Pane prefHeight="45.0" prefWidth="120.0" styleClass="menu_pane">
+               <children>
+                  <Label layoutY="-2.0" prefHeight="45.0" prefWidth="120.0" styleClass="menu_label" text="      Open" />
+               </children>
+            </Pane>
+            <Pane prefHeight="45.0" prefWidth="120.0" styleClass="menu_pane">
+               <children>
+                  <Label layoutY="-2.0" prefHeight="45.0" prefWidth="120.0" styleClass="menu_label" text="      Close" />
+               </children>
+            </Pane>
+            <Pane prefHeight="45.0" prefWidth="120.0">
+               <children>
+                  <Label layoutY="-2.0" prefHeight="45.0" prefWidth="120.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="45.0" prefWidth="120.0">
+               <children>
+                  <Label layoutY="-2.0" prefHeight="45.0" prefWidth="120.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="45.0" prefWidth="120.0">
+               <children>
+                  <Label layoutY="-2.0" prefHeight="45.0" prefWidth="120.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="45.0" prefWidth="120.0">
+               <children>
+                  <Label layoutY="-2.0" prefHeight="45.0" prefWidth="120.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="45.0" prefWidth="120.0">
+               <children>
+                  <Label layoutY="-2.0" prefHeight="45.0" prefWidth="120.0" />
+               </children>
+            </Pane>
+            <Separator prefWidth="200.0" />
+            <Pane prefHeight="45.0" prefWidth="120.0" styleClass="menu_pane">
+               <children>
+                  <Label layoutY="-2.0" prefHeight="45.0" prefWidth="120.0" styleClass="menu_label" text="      Log Out" />
+               </children>
+            </Pane>
+         </children></VBox>
+   </left>
+   <top>
+      <VBox prefHeight="47.0" prefWidth="700.0" styleClass="jfxtab_pane" BorderPane.alignment="CENTER">
+         <children>
+            <JFXTabPane prefHeight="50.0" prefWidth="700.0">
+               <tabs>
+                  <Tab id="recruiter_welcome" text="Welcome To Portume As Recruiter" />
+               </tabs>
+            </JFXTabPane>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #E2D9D9;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutX="55.0" layoutY="49.0" prefHeight="354.0" prefWidth="465.0" styleClass="rect_pane">
+               <effect>
+                  <InnerShadow color="#9a9a9a" />
+               </effect>
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="129.0" layoutX="7.0" layoutY="110.0" stroke="BLACK" strokeType="INSIDE" styleClass="rect_main" width="452.0" />
+                  <Label layoutX="178.0" layoutY="146.0" prefHeight="22.0" prefWidth="107.0" text="  Drop Files Here" textFill="#858484">
+                     <font>
+                        <Font name="Calibri Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="178.0" layoutY="166.0" prefHeight="22.0" prefWidth="107.0" text="              OR" textFill="#858484">
+                     <font>
+                        <Font name="Calibri Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="190.0" layoutY="195.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Select Files" textFill="#858484">
+                     <font>
+                        <Font name="Calibri Bold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

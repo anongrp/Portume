@@ -1,0 +1,63 @@
+/* Theme Color Variable */
+*{
+	primary : #2A2E37;
+	secondary : #FFFF8D;
+	secondary-hover : #ffe538;
+	text_color : white;
+	hover_text : #B2B2B2;
+}
+.primaryColor{
+	-fx-background-color: primary;
+}
+.dockBar{
+    -fx-border-color: #000;
+    -fx-border-width: 0 0 2 0;
+}
+.dockBar > .label{
+    -fx-text-fill: text_color;
+    -fx-pref-width: 500;
+    -fx-pref-height: 30;
+    -fx-font-size: 15;
+}
+.dockBtn{
+    -fx-background-color: transparent;
+    -fx-pref-width: 50;
+    -fx-pref-height: 20;
+}
+.light{
+    -fx-background-color: #fff;
+}
+.dark{
+    -fx-background-color: primary;
+}
+.tab {
+    -fx-background-color: primary;
+    -fx-text-fill: #fff;
+    -fx-pref-width: 465;
+}
+.hseprator{
+    -fx-border-color: #fff;
+    -fx-border-width: 0 5 0 0;
+}
+.vseprator{
+    -fx-border-color: #fff;
+    -fx-border-width: 0 0 5 0;
+}
+.tab-header-background{
+    -fx-background-color: primary;
+}
+#drawer_pane{
+    -fx-background-color: primary;
+}
+
+/* Drawer Styling Start */
+
+.user_name{
+    -fx-text-fill: text_color;
+    -fx-font-size: 20;
+}
+.drawer_menu{
+    -fx-text-fill: #fff;
+    -fx-font-size: 20;
+    -fx-border-width: 0 0 2 0;
+}

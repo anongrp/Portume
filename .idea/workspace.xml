@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Untitled-1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/grp/anon/Resources/exitIcon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/grp/anon/Resources/hamburger.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/grp/anon/Resources/minimizeIcon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/grp/anon/Resources/samplePic.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/grp/anon/inssets/profilePic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/grp/anon/recruiter/recruiter_Style.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/cssdialects.xml" afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portume/grp/anon/database/DatabaseHandler.class" afterPath="$PROJECT_DIR$/out/production/Portume/grp/anon/database/DatabaseHandler.class" />
-      <change beforePath="$PROJECT_DIR$/src/grp/anon/Launcher.java" afterPath="$PROJECT_DIR$/src/grp/anon/Launcher.java" />
-      <change beforePath="$PROJECT_DIR$/src/grp/anon/database/DatabaseHandler.java" afterPath="$PROJECT_DIR$/src/grp/anon/database/DatabaseHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/grp/anon/recruiter/MainRecuiter.java" afterPath="$PROJECT_DIR$/src/grp/anon/recruiter/MainRecuiter.java" />
-      <change beforePath="$PROJECT_DIR$/src/grp/anon/recruiter/RecruiterWindow.java" afterPath="$PROJECT_DIR$/src/grp/anon/recruiter/RecruiterWindow.java" />
-      <change beforePath="$PROJECT_DIR$/src/grp/anon/recruiter/Recruiter_Home.fxml" afterPath="$PROJECT_DIR$/src/grp/anon/recruiter/Recruiter_Home.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/grp/anon/recruiter/Recruiter_Window.fxml" afterPath="$PROJECT_DIR$/src/grp/anon/recruiter/Recruiter_Window.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/grp/anon/recruiter/recruiter.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portume/grp/anon/Launcher.class" afterPath="$PROJECT_DIR$/out/production/Portume/grp/anon/Launcher.class" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -162,7 +147,7 @@
       <file leaf-file-name="RecruiterWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/grp/anon/recruiter/RecruiterWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="950">
               <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -683,7 +668,7 @@
       <workItem from="1516501036547" duration="635000" />
       <workItem from="1517376254278" duration="255000" />
       <workItem from="1517377032572" duration="56000" />
-      <workItem from="1517377113843" duration="9280000" />
+      <workItem from="1517377113843" duration="9341000" />
     </task>
     <task id="LOCAL-00001" summary="Init Some Packages">
       <created>1516334982771</created>
@@ -720,11 +705,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517377161135</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Animation Formula's Done">
+      <created>1517386687199</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1517386687199</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35404000" />
+    <option name="totallyTimeSpent" value="35465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -739,7 +731,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2766191" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2766191" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -778,7 +770,8 @@
     <MESSAGE value="Init Some Packages" />
     <MESSAGE value="Init Database" />
     <MESSAGE value="Login Facility" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login Facility" />
+    <MESSAGE value="Animation Formula's Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Animation Formula's Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1098,7 +1091,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/grp/anon/recruiter/RecruiterWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="950">
           <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
