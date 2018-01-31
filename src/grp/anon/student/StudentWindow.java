@@ -9,16 +9,14 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class StudentWindow  implements Initializable {
+
+
     @FXML
     private WebView proPic;
-
-    @FXML
-    private WebEngine webEngine;
-
-
+    private WebEngine engine;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        webEngine = proPic.getEngine();
-        webEngine.load(getClass().getResource("../inssets/ProfilePicForPortfolio.html").toExternalForm());
+        engine = proPic.getEngine();
+        engine.load(getClass().getResource("../inssets/pro_pic_portfolio.html").toExternalForm());
     }
 }
