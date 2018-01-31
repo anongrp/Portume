@@ -11,7 +11,7 @@ public class Launcher extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         mainStage = primaryStage;
-        Scene scene = new Scene(FXMLLoader.load(getClass().getResource("recruiter/Recruiter_Window.fxml")));
+        Scene scene = new Scene(FXMLLoader.load(getClass().getResource("student/Student_Window.fxml")));
         primaryStage.setResizable(false);
         primaryStage.initStyle(StageStyle.UNDECORATED);
         primaryStage.setScene(scene);
