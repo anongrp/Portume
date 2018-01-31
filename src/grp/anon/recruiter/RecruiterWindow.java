@@ -13,7 +13,6 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
-import javafx.stage.Window;
 import javafx.util.Duration;
 
 import java.net.URL;
@@ -24,6 +23,7 @@ public class RecruiterWindow implements Initializable {
 
     @FXML
     private BorderPane root;
+
     @FXML
     private AnchorPane drawer_pane;
 
@@ -53,9 +53,9 @@ public class RecruiterWindow implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
         engine = profilePic.getEngine();
         engine.load(getClass().getResource("../inssets/profilePic.html").toExternalForm());
-        drawerOpenTransition = new TranslateTransition(Duration.seconds(1),drawer);
+        drawerOpenTransition = new TranslateTransition(Duration.seconds(0.5),drawer);
         drawerOpenTransition.setToX(300);
-        drawerCloseTransition = new TranslateTransition(Duration.seconds(0.5),drawer);
+        drawerCloseTransition = new TranslateTransition(Duration.seconds(0.3),drawer);
         drawerCloseTransition.setToX(0);
         hamburger.setOnMouseClicked(e->{
             if (toggle == -1){

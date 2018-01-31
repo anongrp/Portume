@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane fx:controller="grp.anon.login.LoginController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" styleClass="root" stylesheets="@loginStyle.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" styleClass="root" stylesheets="@loginStyle.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="grp.anon.login.LoginController">
    <center>
       <StackPane fx:id="login_pane" prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <BorderPane.margin>
@@ -26,8 +26,8 @@
                      </font></Button>
                   <Button fx:id="student_signup_btn" layoutX="800.0" layoutY="295.0" mnemonicParsing="false" onAction="#studentSignup" styleClass="student_btn" text="Sign Up" />
                   <Separator layoutX="431.0" orientation="VERTICAL" prefHeight="501.0" prefWidth="22.0" />
-                  <Label layoutX="100.0" layoutY="24.0" styleClass="login_label" text="Login as Recruiter" />
-                  <Label layoutX="564.0" layoutY="24.0" styleClass="login_label" text="Login as Student">
+                  <Label layoutX="50.0" layoutY="24.0" styleClass="login_label" text="Login as Recruiter" />
+                  <Label layoutX="554.0" layoutY="24.0" styleClass="login_label" text="Login as Student">
                      <font>
                         <Font name="Ubuntu" size="13.0" />
                      </font>
