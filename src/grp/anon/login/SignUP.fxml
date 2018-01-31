@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="500.0" prefWidth="900.0" styleClass="trans" stylesheets="@loginStyle.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="500.0" prefWidth="900.0" stylesheets="@loginStyle.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane fx:id="signup_input_pane" layoutX="25.0" layoutY="25.0" prefHeight="258.0" prefWidth="370.0">
          <children>

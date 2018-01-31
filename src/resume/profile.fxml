@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane prefHeight="500.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <AnchorPane fx:id="root" prefHeight="600.0" prefWidth="884.0" styleClass="root" stylesheets="@../profile/profile.css">
+               <children>
+                  <ImageView fx:id="profileDP" fitHeight="145.0" fitWidth="217.0" layoutX="334.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Lucid%20Smart%20Buddy/src/Resources/bg/background6.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="username_label" layoutX="391.0" layoutY="193.0" text="USERNAME" />
+                  <TableView layoutX="99.0" layoutY="242.0" prefHeight="200.0" prefWidth="703.0">
+                    <columns>
+                      <TableColumn prefWidth="143.1999740600586" text="C1" />
+                      <TableColumn prefWidth="144.800048828125" text="C2" />
+                        <TableColumn minWidth="6.39996337890625" prefWidth="132.79995727539062" text="Column X" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
