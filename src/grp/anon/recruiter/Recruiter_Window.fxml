@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" stylesheets="@recruiter.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="grp.anon.Recruiter.RecruiterWindow">
+   <left>
+      <VBox prefHeight="600.0" prefWidth="130.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox id="recruiterlogout" prefHeight="50.0" prefWidth="130.0" stylesheets="@recruiter.css">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Back.png" />
+                     </image></ImageView>
+                  <Label minHeight="50.0" prefWidth="70.0" text="   Log Out" textFill="WHITE">
+                     <font>
+                        <Font name="Calibri Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <Separator prefHeight="7.0" prefWidth="130.0" />
+            <AnchorPane id="optionsanchor" prefHeight="609.0" prefWidth="130.0" stylesheets="@recruiter.css">
+               <children>
+                  <VBox layoutX="15.0" layoutY="-12.0" prefHeight="547.0" prefWidth="130.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Pane id="menupane" prefHeight="50.0" prefWidth="130.0" stylesheets="@recruiter.css">
+                           <children>
+                              <Label layoutY="1.0" prefHeight="50.0" prefWidth="130.0" text="             Info" textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane id="menupane" prefHeight="50.0" prefWidth="130.0" stylesheets="@recruiter.css">
+                           <children>
+                              <Label layoutY="1.0" prefHeight="50.0" prefWidth="130.0" text="             New" textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane id="menupane" prefHeight="50.0" prefWidth="130.0" stylesheets="@recruiter.css">
+                           <children>
+                              <Label layoutY="1.0" prefHeight="50.0" prefWidth="130.0" text="             Open" textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane id="menupane" prefHeight="50.0" prefWidth="130.0" stylesheets="@recruiter.css">
+                           <children>
+                              <Label layoutY="1.0" prefHeight="50.0" prefWidth="130.0" text="             Add to" textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane id="menupane" prefHeight="50.0" prefWidth="130.0" stylesheets="@recruiter.css">
+                           <children>
+                              <Label prefHeight="50.0" prefWidth="130.0" text="             Share" textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane id="menupane" prefHeight="50.0" prefWidth="130.0" stylesheets="@recruiter.css">
+                           <children>
+                              <Label layoutY="1.0" prefHeight="50.0" prefWidth="130.0" text="             Export" textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane id="menupane" prefHeight="50.0" prefWidth="130.0" stylesheets="@recruiter.css">
+                           <children>
+                              <Label layoutY="1.0" prefHeight="50.0" prefWidth="130.0" text="             Close" textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Separator prefWidth="200.0" />
+                        <Pane id="menupane" prefHeight="50.0" prefWidth="130.0" stylesheets="@recruiter.css">
+                           <children>
+                              <Label layoutY="1.0" prefHeight="50.0" prefWidth="130.0" text="       Accout Settings " textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane id="menupane" prefHeight="50.0" prefWidth="130.0" stylesheets="@recruiter.css">
+                           <children>
+                              <Label layoutY="1.0" prefHeight="50.0" prefWidth="130.0" text="      Preferences" textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane id="menupane" prefHeight="50.0" prefWidth="130.0" stylesheets="@recruiter.css">
+                           <children>
+                              <Label id="menupane" layoutY="1.0" prefHeight="50.0" prefWidth="130.0" stylesheets="@recruiter.css" text="       Help" textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+               </children></AnchorPane>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <JFXTabPane BorderPane.alignment="CENTER">
+         <tabs>
+            <Tab id="tabpane_info" text="Resume">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab id="tabpane_info" text="Portfolio">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+         </tabs>
+      </JFXTabPane>
+   </center>
+</BorderPane>

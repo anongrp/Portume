@@ -1,0 +1,51 @@
+#optionsanchor{
+    -fx-background-color:#2A2E37;
+}
+#recruiterlogout{
+    -fx-background-color:#2A2E37;
+}
+#menupane:hover{
+    -fx-background-color:#00ff37;
+}
+#tabpane_info{
+    -fx-background-color:#2A2E37;
+    -fx-pref-width:400;
+    -fx-pref-height:50;
+}
+.tabpane{
+    -fx-background-color:#2A2E37;
+}
+#recruiter_welcome{
+	-fx-pref-width:689;
+	-fx-pref-height:48;
+	-fx-background-color:#2A2E37;
+}
+.jfxtab_pane{
+	-fx-background-color:#2A2E37;
+}
+.menu_label{
+	-fx-text-fill:#ffffff;
+	-fx-pref-height:45;
+	-fx-pref-width:120;
+}
+.menu_label:hover{
+	-fx-scale-x:1.1;
+	-fx-scale-y:1.1;
+}
+.menu_label:pressed{
+	-fx-scale-x:1;
+	-fx-scale-y:1;
+}
+.menu_pane:hover{
+	-fx-background-color:#375084;
+}
+.rect_pane{
+	-fx-background-color:#DAD6D6;
+}
+.rect_main{
+	-fx-fill:#DAD6D6;
+	-fx-stroke:#858484;
+	-fx-stroke-width:3;
+	-fx-stroke-dash-array:12 8 12 0;
+	-fx-stroke-line-cap: butt;
+}
