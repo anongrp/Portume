@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 public class Launcher extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Scene scene = new Scene(FXMLLoader.load(getClass().getResource("login/Login-Home.fxml")));
+        Scene scene = new Scene(FXMLLoader.load(getClass().getResource("recruiter/Recruiter_Window.fxml")));
         primaryStage.setScene(scene);
         primaryStage.show();
     }

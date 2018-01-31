@@ -11,7 +11,7 @@ public class MainRecuiter extends Application{
     public void start(Stage primaryStage) throws Exception {
         BorderPane root = (BorderPane) FXMLLoader.load(getClass().getResource("Recruiter_Home.fxml"));
         Scene scene = new Scene(root);
-        scene.getStylesheets().add(getClass().getResource("recruiter.css").toExternalForm());
+        scene.getStylesheets().add(getClass().getResource("recruiter_Style.css").toExternalForm());
         primaryStage.setScene(scene);
         primaryStage.show();
     }

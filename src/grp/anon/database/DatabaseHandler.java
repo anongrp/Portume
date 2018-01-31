@@ -6,7 +6,6 @@ import anon.database.Table;
 import anon.database.TableCreationOutOfBoundException;
 import javafx.scene.control.Alert;
 import anon.database.connect.Connection;
-
 import java.io.IOException;
 
 final class DatabaseHandler {
