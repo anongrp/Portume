@@ -1,5 +1,5 @@
 # Portume
-## The New Revolution in the era of Portfolios and Resume
+## The New Revolution in the era of Portfolio and Resume
 
 ![Home](https://raw.githubusercontent.com/anongrp/Portume/master/sc1.png)
 
